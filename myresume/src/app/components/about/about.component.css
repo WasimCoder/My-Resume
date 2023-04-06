@@ -1,0 +1,21 @@
+.about-block{
+    height: 160px;
+    background:gainsboro;
+    /* border: var(--bl-bor); */
+}
+.about-block div{
+    height: 120px;
+    width: 350px;
+    background: var(--white);
+    /* border: var(--bl-bor); */
+    text-overflow: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    color: var(--gray);
+}
+.about-block div img{
+    width: 150px;
+    margin-right: 10px;
+}

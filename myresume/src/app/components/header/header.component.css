@@ -1,0 +1,27 @@
+
+
+.header{
+    grid-template-columns: 300px 300px 300px;
+    /* border: var(--bl-bor); */
+    background: linear-gradient(to bottom, var(--black), var(--gray));
+    height: 60px;
+    width: 100%;
+    
+}
+.header div{
+    height: 30px;
+}
+.logo{
+    width: 200px;
+    justify-content: space-around;
+
+}
+.logo p{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--white);
+}
+
+.logo img{
+width: 60px;
+}

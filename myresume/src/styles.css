@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+:root{
+    --black: #171717;
+    --gray: #444444;
+    --red: #DA0037;
+    --white: #EDEDED;
+    --bl-bor : solid 1px black;
+    --none : none;
+    --button-radius: 7px;
+    --button-padding: 7px;
+}
+*{
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding: 0;
+}
+.flex-center{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid-center{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons{
+    color: var(--white);
+    background-color: var(--red);
+    border: var(--none);
+    border-radius: var(--button-radius);
+    padding: var(--button-padding);
+    cursor: pointer;
+}
+.hover{
+    background-color: #d62652;
+}
+.hover:active{
+    background-color: #c55a75;
+
+}
+.effect{
+    opacity: 1;
+    transition: 1s ;
+    top: 50%;
+}
