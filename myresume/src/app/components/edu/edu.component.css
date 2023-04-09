@@ -1,0 +1,31 @@
+.school , .college{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.college{
+  background-color: gainsboro;
+}
+.pic, .det{
+  height: 600px;
+  width: 100%;
+  border: var(--bl-bor);
+}
+.pic-block{
+  width: 400px;
+  height: 300px;
+  border: var(--bl-bor);
+}
+.other-details{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  border: var(--bl-bor);
+  height: 80px;
+}
+.pic-block img{
+  height: 300px;
+  width: 100%;
+}
+.other-details .pic-logo, .other-details .link{
+  border: var(--bl-bor);
+
+}

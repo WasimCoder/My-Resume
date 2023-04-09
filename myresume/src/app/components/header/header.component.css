@@ -25,3 +25,11 @@
 .logo img{
 width: 60px;
 }
+
+.page-list .buttons{
+    color: var(--red);
+    transition: color 0.5s, background-color 0.5s;
+}
+.page-list .buttons:hover{
+    color: var(--white);
+}

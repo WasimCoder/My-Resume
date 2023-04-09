@@ -34,11 +34,11 @@
     margin-right: 10px;
     /* border: var(--bl-bor); */
     width: 400px;
-    transition: box-shadow 0.5s;
+    transition: box-shadow 0.2s;
 }
 .s-block p{
     font-size: 20px;
-    animation: spin 2s ease-in-out infinite;
+    animation: spin 4s infinite;
     transform: scale(1.1);
 
 }
@@ -47,17 +47,16 @@
         transform: scale(1.1);
         /* transform: translate(0px,5px); */
      }
-   /* 50%{
-        transform: scale(1.1) rotate(180deg);
-        /* transform: translate( 0px,10px); 
+   50%{
+        transform: scale(1.4) rotate(360deg) ;
+        animation-delay: 2s;
     }
-    75%{
+    /* 75%{
         transform: scale(1.1) rotate(270deg);
         /* transform: translate( 0px,10px); 
     } */
     100%{
-        transform: scale(1.4) rotate(360deg) ;
-        animation-delay: 2s;
+        transform: scale(1.1);
         /* transform: translate( 0px,5px); */
     }
 }

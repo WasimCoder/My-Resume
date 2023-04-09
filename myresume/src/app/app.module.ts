@@ -10,6 +10,7 @@ import { DisplayComponent } from './components/display/display.component';
 import { DisplayEffectDirective } from './directives/display-effect.directive';
 import { AboutComponent } from './components/about/about.component';
 import { StrengthsComponent } from './components/strengths/strengths.component';
+import { EduComponent } from './components/edu/edu.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { StrengthsComponent } from './components/strengths/strengths.component';
     DisplayEffectDirective,
     AboutComponent,
     StrengthsComponent,
+    EduComponent,
   ],
   imports: [
     BrowserModule,

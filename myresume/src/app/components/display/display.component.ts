@@ -9,7 +9,7 @@ export class DisplayComponent {
   constructor(){}
   // images = ['/assets/images/photo1.jpeg','/assets/images/photo2.jpeg','/assets/images/photo3.jpeg']
   customOptions: OwlOptions = {
-    loop: true,
+    loop: false,
     mouseDrag: true,
     touchDrag: false,
     pullDrag: true,

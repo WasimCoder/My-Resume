@@ -26,12 +26,14 @@
     align-items: center;
 }
 .buttons{
-    color: var(--white);
-    background-color: var(--red);
+    /* color: var(--white); */
+    /* background-color: var(--red); */
+    background-color: var(--gray);
     border: var(--none);
     border-radius: var(--button-radius);
     padding: var(--button-padding);
     cursor: pointer;
+    transition: color 1s;
 }
 .hover{
     background-color: #d62652;
