@@ -1,0 +1,28 @@
+<div *ngIf="images && images.length > 0" class="review-container"><!--To make it run till all images are used-->
+    <img *ngFor="let image of images; let i = index"
+    [src]="image.imgSrc" [alt]="image.imgAlt"
+    [ngClass]="{'image-active': selectedIndex ===i}"
+    class="fade"
+    ><!--Selecting all images in loop. Array present in home component-->
+    <div *ngIf="indicators" class="review-dot-container">
+        <span *ngFor="let dot of images ; let i = index" 
+        class="dot"
+        [ngClass]="{'active': selectedIndex === i}" 
+        (click)="selectImage(i)"
+        ><!--   Changes the image by changing the index by clicking the span which is dot
+                ngClass is used to bind the property under specific condition
+                -->
+            
+        </span>
+    </div>
+    <button *ngIf="controls" class="btn-review btn-prev">
+        <i class="fas far fa-arrow-alt-circle-left icon-review icon-prev"
+            (click)="onPrevClick()"
+        ></i>
+    </button>
+    <button *ngIf="controls" class="btn-review btn-next">
+        <i class="fas far fa-arrow-alt-circle-right icon-review icon-prev"
+            (click)="onNextClick()"
+        ></i>
+    </button>
+</div>

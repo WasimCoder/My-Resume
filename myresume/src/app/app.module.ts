@@ -11,6 +11,7 @@ import { DisplayEffectDirective } from './directives/display-effect.directive';
 import { AboutComponent } from './components/about/about.component';
 import { StrengthsComponent } from './components/strengths/strengths.component';
 import { EduComponent } from './components/edu/edu.component';
+import { ReviewComponent } from './components/review/review.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { EduComponent } from './components/edu/edu.component';
     AboutComponent,
     StrengthsComponent,
     EduComponent,
+    ReviewComponent,
   ],
   imports: [
     BrowserModule,
